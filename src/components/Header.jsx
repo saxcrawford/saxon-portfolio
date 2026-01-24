@@ -1,18 +1,16 @@
 const Header = () => {
 	return (
-		<div className="header">
-			<nav className="navbar">
+		<div className="navbar">
+			<nav className="navbar-content">
 				<p className="nav-header">Saxon</p>
 				<ul className="nav-items">
-					<li className="nav-item">Home</li>
-					<li className="nav-item">About</li>
-					<li className="nav-item">Projects</li>
-					<li className="nav-item">Contact</li>
-					<li className="nav-item">
-						<button className="nav-item-contact">
-							Let's Talk
-						</button>
-					</li>
+					<li className="nav-item"><a href="#home">Home</a></li>
+					<li className="nav-item"><a href="#about">About</a></li>
+					<li className="nav-item"><a href="#projects">Projects</a></li>
+					<li className="nav-item"><a href="#contact">Contact</a></li>
+					<button className="nav-item-contact">
+						Let's Talk
+					</button>
 				</ul>
 			</nav>
 		</div>
