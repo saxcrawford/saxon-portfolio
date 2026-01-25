@@ -91,13 +91,13 @@ HomePage
 
 .homepage {
 	display: flex;
-	justify-content: center;
 	width: 100%;
 	min-height: 100dvh;
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
 	position: relative;
+	/* Removed justify-content: center to allow margin-top: auto to work effectively for spacing */
 }
 
 .note {
@@ -183,14 +183,19 @@ HomePage
 	border-color: var(--color-white);
 }
 
+/* ... existing styles ... */
+
 .scroll-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 5px;
 	height: auto;
-	position: absolute;
-	bottom: 20px;
+	position: relative;
+	/* Changed from absolute */
+	margin-top: auto;
+	/* Push to the bottom */
+	padding-bottom: 20px;
 }
 
 .scroll {
@@ -703,7 +708,7 @@ Footer
 	}
 
 	.homepage {
-		padding-top: 100px;
+		padding-top: 180px;
 		height: auto;
 		min-height: 100vh;
 		padding-bottom: 50px;
