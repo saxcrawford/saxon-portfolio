@@ -91,13 +91,13 @@ HomePage
 
 .homepage {
 	display: flex;
+	justify-content: center;
 	width: 100%;
 	min-height: 100dvh;
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
 	position: relative;
-	/* Removed justify-content: center to allow margin-top: auto to work effectively for spacing */
 }
 
 .note {
@@ -183,20 +183,16 @@ HomePage
 	border-color: var(--color-white);
 }
 
-/* ... existing styles ... */
-
 .scroll-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 5px;
 	height: auto;
-	position: relative;
-	/* Changed from absolute */
-	margin-top: auto;
-	/* Push to the bottom */
-	padding-bottom: 20px;
+	position: absolute;
+	bottom: 20px;
 }
+
 
 .scroll {
 	font-size: 0.8rem;
@@ -648,7 +644,6 @@ Footer
 		gap: 30px;
 	}
 
-	/* Fix for clipping between 1024px and 1200px */
 	.project-list {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -709,9 +704,17 @@ Footer
 
 	.homepage {
 		padding-top: 180px;
+		justify-content: flex-start;
 		height: auto;
 		min-height: 100vh;
 		padding-bottom: 50px;
+	}
+
+	.scroll-container {
+		position: relative;
+		bottom: auto;
+		margin-top: auto;
+		padding-bottom: 20px;
 	}
 
 	.heading,
@@ -770,7 +773,11 @@ Footer
 	.project-item {
 		width: 100%;
 		height: auto;
-		min-height: 500px;
+		min-height: 550px;
+	}
+
+	.contact-heading {
+		font-size: 1.5rem;
 	}
 
 	.contact-subheading {
