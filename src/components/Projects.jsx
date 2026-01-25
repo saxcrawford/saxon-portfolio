@@ -21,8 +21,8 @@ const Projects = () => {
 								<p className="project-desc">{project.description}</p>
 							</div>
 							<span className="project-stack">
-								{project.techStack.map(stack => (
-									<p>{stack}</p>
+								{project.techStack.map((stack, i) => (
+									<p key={i}>{stack}</p>
 								))}
 							</span>
 							<span className="project-attribute-wrapper">
