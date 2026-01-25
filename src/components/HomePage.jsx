@@ -1,6 +1,15 @@
 import {Briefcase} from "lucide-react";
 
 const HomePage = () => {
+	const goToProjects = (id) => {
+		const element = document.getElementById(id);
+		element?.scrollIntoView();
+	};
+
+	const openEmail = () => {
+		window.open("mailto:saxon.crawford@icloud.com");
+	};
+
 	return (
 		<div className="homepage" id="home">
 			<span className="note">
@@ -15,10 +24,14 @@ const HomePage = () => {
 				ready to create world-class innovative solutions.
 			</h2>
 			<span className="homepage-buttons">
-				<button className="contact-me">
+				<button className="contact-me" onClick={() => {
+					openEmail();
+				}}>
 					Contact Me
 				</button>
-				<button className="view-projects">
+				<button className="view-projects" onClick={() => {
+					goToProjects("projects");
+				}}>
 					View Projects
 				</button>
 			</span>

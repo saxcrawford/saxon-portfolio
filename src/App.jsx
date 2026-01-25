@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage.jsx";
 import About from "./components/About.jsx";
 import {useEffect, useRef} from "react";
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
 	const lenis = useRef(null);
@@ -33,6 +35,8 @@ const App = () => {
 			<HomePage/>
 			<About/>
 			<Projects/>
+			<Contact/>
+			<Footer/>
 		</div>
 	);
 };

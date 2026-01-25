@@ -1,4 +1,9 @@
 const Header = () => {
+	const goToContact = (id) => {
+		const element = document.getElementById(id);
+		element?.scrollIntoView();
+	};
+
 	return (
 		<div className="navbar">
 			<nav className="navbar-content">
@@ -7,8 +12,9 @@ const Header = () => {
 					<li className="nav-item"><a href="#home">Home</a></li>
 					<li className="nav-item"><a href="#about">About</a></li>
 					<li className="nav-item"><a href="#projects">Projects</a></li>
-					<li className="nav-item"><a href="#contact">Contact</a></li>
-					<button className="nav-item-contact">
+					<button className="nav-item-contact" onClick={() => {
+						goToContact("contact");
+					}}>
 						Let's Talk
 					</button>
 				</ul>

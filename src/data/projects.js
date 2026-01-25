@@ -13,7 +13,7 @@ const projectData = [
 		techStack: ["Next.js", "TypeScript", "SpringBoot"],
 		attribution: "Photo by Derek1252",
 		attributionLink: "https://commons.wikimedia.org/w/index.php?curid=25097468",
-		linkToProject: "www.corbinactivityhub.com"
+		linkToProject: "https://www.corbinactivityhub.com"
 	},
 	{
 		id: 1,

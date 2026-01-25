@@ -2,6 +2,10 @@ import {Camera, ExternalLink} from "lucide-react";
 import projectData from "../data/projects.js";
 
 const Projects = () => {
+	const goToProjectPage = (link) => {
+		window.open(link);
+	};
+
 	return (
 		<div className="projects" id="projects">
 			<div className="project-container">
@@ -11,7 +15,9 @@ const Projects = () => {
 						<div key={project.id} className="project-item">
 							<div className="project-image-wrapper">
 								<img className="project-image" src={project.image} alt="vite logo"/>
-								<button className="project-button">
+								<button className="project-button" onClick={() => {
+									goToProjectPage(project.linkToProject);
+								}}>
 									<p>View Project</p>
 									<ExternalLink className="external-link" size={20}/>
 								</button>
