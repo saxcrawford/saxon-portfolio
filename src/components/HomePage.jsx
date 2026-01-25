@@ -1,4 +1,4 @@
-import {Briefcase} from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 const HomePage = () => {
 	const goToProjects = (id) => {
@@ -11,9 +11,9 @@ const HomePage = () => {
 	};
 
 	return (
-		<div className="homepage" id="home">
+		<section className="homepage" id="home">
 			<span className="note">
-				<Briefcase size={20}/>
+				<Briefcase size={20} />
 				<p>Available for new opportunities</p>
 			</span>
 			<h1 className="heading">
@@ -39,7 +39,7 @@ const HomePage = () => {
 				<p className="scroll">SCROLL</p>
 				<span className="scroll-line"></span>
 			</div>
-		</div>
+		</section>
 	);
 };
 

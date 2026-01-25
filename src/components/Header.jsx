@@ -5,7 +5,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="navbar">
+		<header className="navbar">
 			<nav className="navbar-content">
 				<p className="nav-header">Saxon</p>
 				<ul className="nav-items">
@@ -19,7 +19,7 @@ const Header = () => {
 					</button>
 				</ul>
 			</nav>
-		</div>
+		</header>
 	);
 };
 
