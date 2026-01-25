@@ -2,7 +2,7 @@ import {Briefcase} from "lucide-react";
 
 const HomePage = () => {
 	return (
-		<div className="homepage">
+		<div className="homepage" id="home">
 			<span className="note">
 				<Briefcase size={20}/>
 				<p>Available for new opportunities</p>

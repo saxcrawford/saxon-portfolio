@@ -2,7 +2,7 @@ import {CodeXml, Cpu, Database, Globe, GraduationCap, Terminal} from "lucide-rea
 
 const About = () => {
 	return (
-		<div className="about">
+		<div className="about" id="about">
 			<span className="about-info">
 				<h1 className="about-heading">About Me</h1>
 				<p className="about-content-text">
@@ -23,7 +23,7 @@ const About = () => {
 				<div className="about-content">
 					<span className="education">
 						<GraduationCap color="#A78BFA" size={30}
-						               filter="drop-shadow(0 0 8px rgba(167, 139, 250, 0.5))"/>
+									   filter="drop-shadow(0 0 8px rgba(167, 139, 250, 0.5))"/>
 						<div className="education-wrapper">
 							<h2>Education</h2>
 							<p>Bachelor of Science in Computer Science</p>

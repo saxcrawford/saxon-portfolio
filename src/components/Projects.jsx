@@ -3,7 +3,7 @@ import projectData from "../data/projects.js";
 
 const Projects = () => {
 	return (
-		<div className="projects">
+		<div className="projects" id="projects">
 			<div className="project-container">
 				<h1>Selected Projects</h1>
 				<div className="project-list">
