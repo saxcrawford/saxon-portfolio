@@ -1,64 +1,83 @@
 # Portfolio
 
-[![React](https://img.shields.io/badge/React-18.x-blue?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Welcome to my personal portfolio! This simply showcases who I am, and a few of my projects I've made as a junior
-developer. This portfolio was built with React and will serve as a place to demonstrate my work and my latest projects.
+Welcome to my personal portfolio. This project represents my skills as an entry-level Full-Stack Developer, showcasing my ability to build modern, responsive, and user-friendly web applications.
+
+## 🚀 About The Project
+
+This portfolio was built to demonstrate my proficiency in modern frontend development. It features a clean, aesthetic interface with smooth animations and a fully responsive layout that works seamlessly across all device sizes.
+
+### Key Features
+
+*   **Responsive Design**: Flawless layout on Mobile, Tablet, and Desktop screens.
+*   **Semantic HTML**: Built with accessibility and SEO best practices in mind.
+*   **Modern Styling**: Custom CSS with gradients, glassmorphism, and smooth transitions.
+*   **Interactive UI**: Engaging user experience with hover effects and scroll animations.
+
+## 🛠️ Built With
+
+*   **[React.js](https://reactjs.org/)** - Library for building user interfaces
+*   **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling
+*   **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** - For precise and custom styling
+*   **[Lucide React](https://lucide.dev/)** - Beautiful & consistent icons
+
+## ⚡ Getting Started
+
+To run this project locally, follow these simple steps.
+
+### Prerequisites
+
+*   Node.js installed on your local machine.
+
+### Installation
+
+1.  **Clone the repository**
+    ```sh
+    git clone https://github.com/saxcrawford/portfolio-saxon.git
+    ```
+
+2.  **Navigate to the project directory**
+    ```sh
+    cd portfolio-saxon
+    ```
+
+3.  **Install dependencies**
+    ```sh
+    npm install
+    ```
+
+4.  **Start the development server**
+    ```sh
+    npm run dev
+    ```
+
+5.  Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable React components (Header, Footer, Sections)
+├── data/            # Static data files (Project details)
+├── App.jsx          # Main application component
+├── App.css          # Main stylesheet with variables and global styles
+└── main.jsx         # Entry point
+```
+
+## 📬 Contact
+
+I am currently open to new opportunities. Feel free to reach out!
+
+*   **Email**: [saxon.crawford@icloud.com](mailto:saxon.crawford@icloud.com)
+*   **LinkedIn**: [Saxon Crawford](https://www.linkedin.com/in/saxoncrawford/)
+*   **GitHub**: [saxcrawford](https://github.com/saxcrawford)
 
 ---
-
-## About
-
-This portfolio highlights the projects I’ve worked on and some of the technologies I specialize in. The goal is to
-provide an overview of my skills, experiences, and the type of work I’m passionate about.
-
----
-
-## Technologies Used
-
-- **React.js w/ Vite**: Core framework used to build the UI.
-- **HTML5 & CSS**: For structuring and styling the components.
-- **JavaScript**: Logic and interactivity.
-
----
-
-## Setup and Installation
-
-To run this portfolio locally, follow these steps:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/saxcrawford/portfolio-saxon.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd portfolio-saxon
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm start
-   ```
-5. Open your browser and go to `http://localhost:3000` to view the portfolio.
-
----
-
-## Features
-
-- **Project Showcase**: Each project is displayed as a card with detailed descriptions and links to the live demo or
-  repository.
-- **Smooth Animations**: Subtle animations enhance the user experience without overwhelming the content.
-- **Contact Section**: Provides easy ways to get in touch via email or social media.
-
----
-
-## Contact
-
-If you'd like to get in touch, feel free to reach out via:
-
-- Email: saxon.crawford@icloud.com
-- LinkedIn: [Saxon Crawford](https://www.linkedin.com/in/saxoncrawford/)
-- GitHub: [saxcrawford](https://github.com/saxcrawford)
+<p align="center">
+  &copy; 2026 Saxon Crawford. All rights reserved.
+</p>
