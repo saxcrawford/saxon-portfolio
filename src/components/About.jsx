@@ -6,17 +6,17 @@ const About = () => {
 			<span className="about-info">
 				<h1 className="about-heading">About Me</h1>
 				<p className="about-content-text">
-					My name is <strong>Saxon Crawford</strong>. I am an aspiring software developer with a strong passion for technology
-					and building efficient, user-friendly applications.
+					My name is <strong>Saxon Crawford</strong>. I’m a programmer with a strong interest in building practical, 
+					user-friendly applications.
 				</p>
 				<p className="about-content-text">
-					I have foundational knowledge in software development and web development, which has given me a
-					solid understanding of how technologies work and thrive in the digital world.
+					I strive to strengthen my skills in software development, problem-solving, and working with real-world code.
+					I also have experience with web development and enjoy learning new technologies and applying them to useful projects. 
+					As I continue growing in the field, I’m especially interested in expanding my skills in software development, web development, 
+					and data-focused technologies.
 				</p>
 				<p className="about-content-text">
-					I am eager to expand my skills in areas such as software development, web development, and data
-					science. I'm excited to take on new opportunities that allow me to continue learning, grow my
-					technical skills, and contribute to innovative solutions.
+					I’m always looking for opportunities to learn, improve, and build solutions that are both efficient and useful.
 				</p>
 			</span>
 			<div className="about-container">
